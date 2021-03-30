@@ -4,7 +4,7 @@ const cors = require('cors');
 const admin = require('firebase-admin');
 const port = 5000
 
-app.get('/', (req)=>{
+app.get('/', ( res)=>{
     res.send('hello from db its working')
 })
 // const password = jesmin123;
